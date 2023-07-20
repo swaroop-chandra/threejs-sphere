@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.webgl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+nav {
+  color: #fff;
+  z-index: 2;
+  position: relative;
+  padding: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 4rem;
+}
+
+.title {
+  color: #fff;
+  font-weight: 600;
+  font-size: 3rem;
+  position: absolute;
+  z-index: 4;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
